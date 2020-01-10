@@ -1,0 +1,35 @@
+title: OK Blog & Stuff
+description: > # this means to ignore newlines until "baseurl:"
+  Welcome to my blog & stuff page. Hope you'll find some of my posts useful or at least you'll spend great time with these lines...
+permalink: ':title/'
+baseurl: "" 
+url: ""
+site-twitter: ondrejkaas #if your site has a twitter account, enter it here
+
+# Author Settings
+author: OK # add your name
+author-img: avatar.png # add your photo
+about-author: OK
+social-twitter: ondrejkaas # add your Twitter handle
+# social-facebook: # add your Facebook handle
+social-github: OKaas
+social-linkedin: ondrejkaas # add your Linkedin handle
+social-email: kaasondrej@gmail.com # add your Email address
+
+# Disqus
+# discus-identifier: 
+
+# Tracker
+# analytics: # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
